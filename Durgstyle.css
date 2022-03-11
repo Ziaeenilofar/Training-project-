@@ -1,0 +1,540 @@
+body {
+  font-size: x-large;
+  font-family: "Open Sans", "sans-serif";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* tags */
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.section {
+  color: #222222;
+}
+
+.cw {
+  color: white;
+}
+
+.cg {
+  color: gray;
+}
+
+.co {
+  color: rgb(253, 94, 36);
+}
+
+/* Body */
+#intro .header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#intro .header {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#intro .header button {
+  color: rgb(245, 245, 245);
+  background-color: rgb(253, 94, 36);
+  border: none;
+  width: 130px;
+  height: 50px;
+}
+
+#intro .header .navbar a {
+  color: #222222;
+  text-decoration: none;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin: 10px;
+}
+
+#background .we-provide {
+  text-align: center;
+}
+
+#background .we-provide {
+  background: url(./img/slider/slider-img-1.jpg) no-repeat;
+}
+
+#background .we-provide .text {
+  background-color: rgb(245, 245, 245);
+  width: 460px;
+  height: 300px;
+  margin: 150px 70px 20px 190px;
+  padding: 30px 40px 0px 40px;
+}
+
+#background .we-provide .text {
+  text-align: left;
+}
+
+#background .we-provide .text > h6 {
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+#background .we-provide .text > p {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 55px;
+}
+
+#background .we-provide .text button {
+  background-color: rgb(253, 94, 36);
+  border: none;
+  width: 160px;
+  height: 50px;
+}
+
+#background .we-provide {
+  overflow: hidden;
+  height: 100vh;
+}
+
+#companies .container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#companies {
+  background-color: rgb(232, 230, 230);
+}
+
+#companies .container .company {
+  margin: 60px 25px;
+}
+
+#our-service {
+  text-align: center;
+}
+
+#our-service .container > h3 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 15px 0;
+}
+
+#our-service .container > p {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+
+#our-service .cards {
+  display: flex;
+}
+
+#our-service .cards .card {
+  width: 33%;
+}
+
+#our-service .cards .card .text {
+  text-align: left;
+}
+
+#our-service .cards .card .text > h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+#our-service .cards .card .text > p {
+  font-size: 0.9rem;
+}
+
+#our-service .cards .card .text a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: rgb(155, 149, 149);
+}
+
+#take-a-look .background {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#take-a-look .background {
+  margin: 80px 0px;
+}
+
+#take-a-look .background .photos {
+  display: flex;
+}
+
+#take-a-look .background {
+  background: url(./img/background-img/bg-img-2.jpg);
+}
+
+#take-a-look .background {
+  height: 100vh;
+}
+
+#take-a-look .background .photos .photo1 img {
+  width: 300px;
+  height: 250px;
+  margin: 170px 15px 20px 15px;
+  overflow: hidden;
+}
+
+#take-a-look .background .photos .photo1 .text {
+  text-align: left;
+  margin-left: 15px;
+}
+
+#take-a-look .background .photos .photo1 .text > h6 {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+#take-a-look .background .photos .photo1 .text > p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+#take-a-look .background .texthead {
+  text-align: left;
+  margin-top: 170px;
+  margin-left: 170px;
+}
+
+#take-a-look .bblue {
+  background-color: rgba(6, 5, 46, 0.8);
+  width: 1550px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#take-a-look .background .texthead > h2 {
+  font-weight: 600;
+}
+
+#take-a-look .background .texthead > p {
+  font-size: 1rem;
+  margin-top: 15px;
+}
+
+#about-company .part {
+  display: flex;
+}
+
+#about-company .part > div {
+  flex: 1;
+}
+
+#about-company .part .pic1 img {
+  width: 510px;
+  height: 450px;
+  margin-left: 50px;
+}
+
+#about-company .part .text {
+  margin: 50px 85px;
+}
+
+#about-company .part .text > h6 {
+  font-size: 0.9;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+#about-company .part .text > h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+#about-company .part .text > p {
+  font-size: 1rem;
+}
+
+#about-company .part .text button {
+  background-color: rgb(253, 94, 36);
+  border: none;
+  margin-top: 60px;
+  width: 120px;
+  height: 40px;
+}
+
+#about-company .part1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#about-company .part1 {
+  margin: 120px 60px;
+}
+
+#about-company .part1 .text1 {
+  margin-left: 45px;
+}
+
+#about-company .part1 .text1 > h1 {
+  font-size: 7rem;
+}
+
+#about-company .part1 .text1 .setare img {
+  width: 75px;
+  height: 15px;
+  margin-bottom: 10px;
+}
+
+#about-company .part1 .text1 > p {
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+#about-company .part1 .text1 .pic2 {
+  display: flex;
+}
+
+#about-company .part1 .text1 .pic2 img {
+  height: 75px;
+}
+
+#about-company .part1 .text1 .pic2 .text3 {
+  margin: 20px;
+}
+
+#about-company .part1 .text1 .pic2 .text3 > h2 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+#about-company .part1 .text1 .pic2 .text3 > p {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+#about-company .part1 .pic3 {
+  background: url(./img/about/about-project.jpg) no-repeat;
+  height: 550px;
+  width: 430px;
+}
+
+#about-company .part1 .pic3 .text {
+  background-color: rgb(253, 94, 36);
+  text-align: center;
+  width: 190px;
+  padding: 40px 30px;
+  margin-top: 340px;
+  margin-left: 30px;
+}
+
+#about-company .part1 .pic3 .text > h1 {
+  font-weight: 500;
+}
+
+#about-company .part1 .pic3 .text > p {
+  font-size: 1rem;
+}
+
+#let-talk {
+  background-image: url(./img/background-img/bg-img-3.jpg);
+  height: 100vh;
+  overflow: hidden;
+}
+
+#let-talk .text {
+  text-align: center;
+}
+
+#let-talk .bg .text {
+  background-color: rgb(253, 94, 36);
+  width: 450px;
+  height: 350px;
+}
+
+#let-talk .bg .text {
+  text-align: left;
+  margin-left: 190px;
+  margin-top: 160px;
+  padding-top: 60px;
+  padding-left: 55px;
+}
+
+#let-talk .bg .text > h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#let-talk .bg .text > p {
+  font-size: 0.8rem;
+  padding-top: 20px;
+}
+
+#let-talk .bg .text button {
+  background-color: rgb(14, 19, 55);
+  border: none;
+  margin-top: 75px;
+  margin-left: 225px;
+  width: 170px;
+  height: 55px;
+}
+
+#our-location {
+  display: flex;
+  justify-content: center;
+}
+
+#our-location {
+  background-color: rgb(4, 4, 38);
+}
+
+#our-location {
+  text-align: center;
+  justify-content: space-around;
+  padding: 120px 110px;
+}
+
+#our-location .location > h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+#our-location .location > p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 10px;
+}
+
+#our-location .location a {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgb(253, 94, 36);
+  text-decoration: none;
+}
+
+#our-location .hour > h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+#our-location .hour > p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 10px;
+}
+
+#our-location .hour a {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgb(253, 94, 36);
+  text-decoration: none;
+}
+
+#our-location .message > h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+#our-location .message > p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 10px;
+}
+
+#our-location .message a {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgb(253, 94, 36);
+  text-decoration: none;
+}
+
+#footer .container {
+  display: flex;
+  padding-left: 60px;
+  padding-bottom: 110px;
+  margin-left: 150px;
+}
+
+#footer {
+  background-image: url(./img/background-img/footer-pattern.png);
+  padding-top: 90px;
+}
+
+#footer .container .text img {
+  width: 120px;
+  padding-bottom: 20px;
+}
+
+#footer .container .text > p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 10px;
+}
+#footer .container .text .icons {
+  display: flex;
+}
+
+#footer .container .text .icons .icon {
+  width: 33px;
+  text-align: center;
+}
+
+#footer .container .text .icons .icon img {
+  margin-top: 25px;
+  width: 15px;
+}
+
+#footer .container .company {
+  margin: 0 30px;
+}
+#footer .container .company > h2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+#footer .container .company .cg {
+  font-size: 0.9rem;
+  padding-top: 10px;
+}
+
+#footer .container .solution {
+  margin: 0 30px;
+}
+#footer .container .solution > h2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+#footer .container .solution .cg {
+  font-size: 0.9rem;
+  padding-top: 10px;
+}
+
+#footer .container .branch {
+  margin: 0 30px;
+}
+
+#footer .container .branch > h2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+
+#footer .container .h4 > h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+#footer .container .h4 > p {
+  font-size: 0.9rem;
+  padding-top: 10px;
+}
