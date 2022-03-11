@@ -1,2 +1,0 @@
-# Training-project-
-DURG project
