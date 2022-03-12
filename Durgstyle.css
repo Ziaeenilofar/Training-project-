@@ -1,14 +1,16 @@
-body {
-  font-size: x-large;
-  font-family: "Open Sans", "sans-serif";
-}
+/* General Styles */
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-/* tags */
+
+body {
+  font-size: x-large;
+  font-family: "Open Sans", "sans-serif";
+}
+/* utilities */
 .container {
   width: 1140px;
   margin: 0 auto;
@@ -30,31 +32,63 @@ body {
   color: rgb(253, 94, 36);
 }
 
-/* Body */
-#intro .header {
-  display: flex;
-  justify-content: space-between;
+.mb-md {
+  margin-bottom: 15px;
 }
 
-#intro .header {
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-#intro .header button {
+.btn-primary:link,
+.btn-primary:visited {
+  display: inline-block;
   color: rgb(245, 245, 245);
   background-color: rgb(253, 94, 36);
   border: none;
-  width: 130px;
-  height: 50px;
+  font-size: 14px;
+  padding: 15px 26px;
+  text-decoration: none;
+  cursor: pointer;
+
+  transition: backgroumd 0.25s ease-out;
 }
 
-#intro .header .navbar a {
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: rgb(233, 74, 16);
+}
+
+/* Body */
+
+#intro {
+  padding: 10px;
+}
+#intro .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* #intro .header {
+  margin-top: 10px;
+  margin-bottom: 20px;
+} */
+
+#intro .header .navbar {
+  display: flex;
+}
+
+#intro .header .navbar a:link,
+#intro .header .navbar a:visited {
   color: #222222;
+  padding: 5px 7px;
   text-decoration: none;
   font-size: 0.7rem;
   font-weight: 600;
-  margin: 10px;
+
+  border-bottom: 1px solid transparent;
+}
+
+#intro .header .navbar a:hover,
+#intro .header .navbar a:active {
+  border-bottom: 1px solid #222;
 }
 
 #background .we-provide {
@@ -67,10 +101,10 @@ body {
 
 #background .we-provide .text {
   background-color: rgb(245, 245, 245);
-  width: 460px;
-  height: 300px;
+  max-width: 460px;
+
   margin: 150px 70px 20px 190px;
-  padding: 30px 40px 0px 40px;
+  padding: 30px 40px 30px 40px;
 }
 
 #background .we-provide .text {
@@ -118,6 +152,7 @@ body {
 
 #our-service {
   text-align: center;
+  padding: 30px 0;
 }
 
 #our-service .container > h3 {
@@ -154,10 +189,16 @@ body {
   font-size: 0.9rem;
 }
 
-#our-service .cards .card .text a {
+#our-service .cards .card .text a:link,
+#our-service .cards .card .text a:visited {
   font-size: 0.9rem;
   text-decoration: none;
   color: rgb(155, 149, 149);
+}
+
+#our-service .cards .card .text a:hover,
+#our-service .cards .card .text a:active {
+  color: #222;
 }
 
 #take-a-look .background {
@@ -354,16 +395,14 @@ body {
 
 #let-talk .bg .text {
   background-color: rgb(253, 94, 36);
-  width: 450px;
-  height: 350px;
+  max-width: 450px;
 }
 
 #let-talk .bg .text {
   text-align: left;
   margin-left: 190px;
   margin-top: 160px;
-  padding-top: 60px;
-  padding-left: 55px;
+  padding: 50px 60px 35px;
 }
 
 #let-talk .bg .text > h2 {
@@ -380,9 +419,10 @@ body {
   background-color: rgb(14, 19, 55);
   border: none;
   margin-top: 75px;
-  margin-left: 225px;
+  margin-left: auto;
   width: 170px;
   height: 55px;
+  cursor: pointer;
 }
 
 #our-location {
